@@ -37,7 +37,6 @@
 </head>
 
 <body>
-    @include('layouts.nav')
     @yield('content')
     @include('layouts.footer')
 <!-- Vendor JS Files -->
