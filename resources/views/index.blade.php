@@ -6,9 +6,9 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Gp<span>.</span></a></h1>
+      <!--<h1 class="logo me-auto me-lg-0"><a href="index.html">Gp<span>.</span></a></h1>-->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="" class="logo me-auto me-lg-0"><img src="img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -50,8 +50,8 @@
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
-          <h1>Powerful Digital Solutions With Gp<span>.</span></h1>
-          <h2>We are team of talented digital marketers</h2>
+          <h1>Lomas de comanjilla<span>.</span></h1>
+          <h2>El mejor lugar para vivir</h2>
         </div>
       </div>
 
@@ -101,21 +101,21 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Us</p>
+        <h2>Contacto</h2>
+        <p>Contáctanos</p>
       </div>
 
       <div>
-        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7447.805703203922!2d-101.53609682300146!3d21.036572807769655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b9783bd50ae77%3A0xe379034de7ba27fd!2sLomas%20de%20Comanjilla%2C%2037683%20Comanjilla%2C%20Guanajuato!5e0!3m2!1sen!2smx!4v1634666731778!5m2!1sen!2smx" frameborder="0" allowfullscreen></iframe>
       </div>
-
+    
       <div class="row mt-5">
 
         <div class="col-lg-4">
           <div class="info">
             <div class="address">
               <i class="bi bi-geo-alt"></i>
-              <h4>Location:</h4>
+              <h4>Ubicación:</h4>
               <p>A108 Adam Street, New York, NY 535022</p>
             </div>
 
@@ -127,7 +127,7 @@
 
             <div class="phone">
               <i class="bi bi-phone"></i>
-              <h4>Call:</h4>
+              <h4>Llamanos:</h4>
               <p>+1 5589 55488 55s</p>
             </div>
 
@@ -140,24 +140,24 @@
           <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="row">
               <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre completo" required>
               </div>
               <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
               </div>
             </div>
             <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Tema" required>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
             </div>
             <div class="my-3">
-              <div class="loading">Loading</div>
+              <div class="loading">Cargando</div>
               <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+              <div class="sent-message">Tu mensaje a sido enviado. Gracias!</div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
           </form>
 
         </div>
