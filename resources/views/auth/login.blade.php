@@ -136,7 +136,7 @@
           <svg class="icon">
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#user"></use>
           </svg>
-          <span class="hidden">Email</span>
+          <span class="hidden">Usuario</span>
         </label>
         <div class="form__input-wrapper">
           <input id="login__email" type="text" name="email" class="form__input" placeholder="Email" required>
@@ -156,7 +156,7 @@
           <svg class="icon">
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lock"></use>
           </svg>
-          <span class="hidden">Password</span>
+          <span class="hidden">Contraseña</span>
         </label>
         <div class="form__input-wrapper">
           <input id="login__password" type="password" name="password" class="form__input" placeholder="Password" required>

@@ -120,7 +120,7 @@ input {
 
 .login input[type='password'],
 .login input[type='text'] {
-	border-bottom: 2px solid #ddf1fa;
+	border-bottom: 2px solid #ddfae2;
 	position: relative;
 }
 
@@ -135,7 +135,7 @@ input {
 }
 
 .underline {
-	background-color: #9fd8f1;
+	background-color: #9ff1b4;
 	display: inline-block;
 	height: 2px;
 	margin-top: -2px;
@@ -147,7 +147,7 @@ input {
 }
 
 .login input[type='submit'] {
-	background-color: #ddf1fa;
+	background-color: #ddfae3;
 	color: #2c3338;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -156,7 +156,7 @@ input {
 
 .login input[type='submit']:focus,
 .login input[type='submit']:hover {
-	background-color: #9fd8f1;
+	background-color: #9ff1b4;
 	color: #eee;
 }
 
@@ -210,7 +210,7 @@ input {
 }
 
 .forgot-password:hover {
-	color: #2c3338;
+	color: #2c3830;
 	text-decoration: underline;
 }
 
@@ -234,7 +234,7 @@ input {
 
 		        clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
 		z-index: -100;
-		background-color: #f8f9fa;
+		background-color: #f8faf8;
 		top: 0;
 		position: absolute;
 		display: inline-block;
