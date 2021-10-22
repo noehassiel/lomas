@@ -20,77 +20,16 @@
         <div class="container">
           <ul class="row">
               <li class="cell">
-                  <a href="">
-                      <div class="img-wrapper">
-                          <img src="{{ asset('img/13-1.jpg') }}" style="width: 100%">
-                      </div>
-                      <h2>Fernando</h2>
-                      <span>Presidente</span>
-                  </a>
+                  <div class="overlay">
+                    <a href="">
+                        <div class="img-wrapper">
+                            <img src="{{ asset('img/13-1.jpg') }}" style="width: 100%; z-index:1;">
+                        </div>
+                        <h2>Fernando</h2>
+                        <span>Presidente</span>
+                    </a>
+                </div>
               </li>
-              <li class="cell">
-                <a href="">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('img/13-1.jpg') }}" style="width: 100%">
-                    </div>
-                    <h2>Fernando</h2>
-                    <span>Presidente</span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('img/13-1.jpg') }}" style="width: 100%">
-                    </div>
-                    <h2>Fernando</h2>
-                    <span>Presidente</span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('img/13-1.jpg') }}" style="width: 100%">
-                    </div>
-                    <h2>Fernando</h2>
-                    <span>Presidente</span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('img/13-1.jpg') }}" style="width: 100%">
-                    </div>
-                    <h2>Fernando</h2>
-                    <span>Presidente</span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('img/13-1.jpg') }}" style="width: 100%">
-                    </div>
-                    <h2>Fernando</h2>
-                    <span>Presidente</span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('img/13-1.jpg') }}" style="width: 100%">
-                    </div>
-                    <h2>Fernando</h2>
-                    <span>Presidente</span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('img/13-1.jpg') }}" style="width: 100%">
-                    </div>
-                    <h2>Fernando</h2>
-                    <span>Presidente</span>
-                </a>
-            </li>
           </ul>
         </div>
       </section>

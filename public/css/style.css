@@ -19,7 +19,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "BluuBold",
+  font-family: "Raleway",
 }
 
 /*--------------------------------------------------------------
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 64px;
   color: #fff;
-  font-family: "BluuBold",
+  font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
   color: #00A606;
