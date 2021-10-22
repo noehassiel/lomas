@@ -19,7 +19,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "BluuBold",
 }
 
 /*--------------------------------------------------------------
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 64px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "BluuBold",
 }
 #hero h1 span {
   color: #00A606;
@@ -1339,4 +1339,44 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+@font-face {
+  font-family: 'BluuBold';
+  src: url('fonts/BluuSuuperstar-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BluuMedium';
+  src: url('{{ assets("fonts/Canaro-W00-Bold.otf") }}') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BluuRegular';
+  src: url('../fonts/Canaro-W00-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maison Book';
+  src: url('../fonts/Canaro-W00-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maison Light';
+  src: url('../fonts/Canaro-W00-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
