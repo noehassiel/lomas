@@ -13,6 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [
+    'uses'=>'App\Http\Controllers\FrontController@index', 
+    'as' => 'index' 
+]);
+
+Route::get('/conocenos', [
+    'uses'=>'App\Http\Controllers\FrontController@conoce',
+    'as' => 'conoce'
+]);
+
+Route::get('/equipo', [
+    'uses'=>'App\Http\Controllers\FrontController@equipo',
+    'as' => 'equipo'
+]);
+
+Route::get('/contacto', [
+    'uses'=>'App\Http\Controllers\FrontController@contacto',
+    'as' => 'contacto'
+]);
+
