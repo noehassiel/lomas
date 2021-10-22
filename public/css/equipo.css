@@ -1,0 +1,17 @@
+.team-grid{
+
+    display: flex;
+    grid-gap: 50px 100px;
+    flex-flow: row-wrap ;
+
+}
+
+.cell{
+    list-style: none;
+    flex: 0 0 auto;
+    min-height: 0px;
+    min-width: 0px;
+    text-align: center;
+    padding: 18.75px;
+    width: 278px;
+}

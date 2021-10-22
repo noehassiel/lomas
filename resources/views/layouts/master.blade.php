@@ -27,8 +27,15 @@
 
   <!-- Template Main CSS File -->
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('css/equipo.css') }}">
 
 </head>
+
+<style>
+  body{
+    background-color: #1D3026;
+  }
+</style>
 
 <body>
     @include('layouts.nav')
